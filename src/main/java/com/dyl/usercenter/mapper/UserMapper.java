@@ -1,13 +1,15 @@
 package com.dyl.usercenter.mapper;
 
+import com.dyl.usercenter.model.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.dyl.usercenter.model.User;
-import org.springframework.stereotype.Repository;
 
 /**
- * @author admin
+ * @Entity com.dyl.usercenter.model.domain.User
  */
-@Repository
 public interface UserMapper extends BaseMapper<User> {
 
 }
+
+
+
+
